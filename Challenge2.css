@@ -16,7 +16,13 @@
     max-width: 1000px;
     margin: auto;
 }
- 
+ p{
+     margin: 15px 0px 15px 0px;
+    text-indent: 30px;
+    line-height: 1em;
+ }
+
+
 img{
     width: 100%;
 }
@@ -70,20 +76,23 @@ nav > a:hover{
     color: red;
 }
 main{
-    padding: 20px;
+    padding: 0px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
     margin-bottom: 30px;
     margin-bottom: 0%;
-    background-color: var(--fontgray);
+    background-color: var(--fontblack);
     
 }
 main h1{
-    color: #ff0000;
+    color: #ffffff;
+    background-image: linear-gradient(to right, var(--fontred), transparent);
+    margin-bottom: 20px;
+
 }
 
 footer{
     margin: 0%;
-    background-color: #ff0000;
+    background-image: linear-gradient(to right, var(--fontred), transparent);
 }
 
 footer h1{
@@ -94,7 +103,12 @@ footer{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding: 10px;
     margin-top: 0%;
 }
+ footer p a{
+     text-decoration: none;
+     color: #ffffff;
+     background-image: linear-gradient(to right, var(--fontred), transparent);
+ }
